@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-ocean-1: #212A31;
+  --color-ocean-2: #2E3944;
+  --color-ocean-3: #748D92;
+  --color-ocean-4: #124E66;
+  --color-ocean-5: #D3D9D4;
+  --color-ocean-6: #FFFFFF;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: var(--color-ocean-1);
+}
